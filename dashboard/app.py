@@ -243,7 +243,15 @@ else:
 
         st.markdown("### Sample of High-Value At-Risk Customers")
         hv = df_seg[df_seg["Segment"] == "High-Value At-Risk"].head(10)
-        st.dataframe(hv[["CustomerID", "Geography", "Age", "Tenure", "Balance", "NumProducts"]])
+
+        # Keep only required columns & reset index
+        hv_reset = hv[["CustomerID", "Geography", "Age", "Tenure", "Balance", "NumProducts"]].reset_index(drop=True)
+
+        # Add clean serial numbers
+        hv_reset.index = hv_reset.index + 1
+
+        st.dataframe(hv_reset)
+
 
         # ----------- Drivers of Churn (Royal Gold) -----------
         if feature_importances is not None:
