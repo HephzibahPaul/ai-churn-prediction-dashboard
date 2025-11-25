@@ -65,8 +65,7 @@ churn_prediction_project/
 │── README.md
 │── LICENSE
 
-yaml
-Copy code
+
 
 ---
 
