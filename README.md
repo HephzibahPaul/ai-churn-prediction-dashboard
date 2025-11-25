@@ -15,31 +15,31 @@ Customer Retention · CRM · Product · Risk · Data Science teams.
 
 ## 🚀 1. Key Features
 
-### 🔮 **Single Customer Prediction**
-- Predicts *churn probability* (0%–100%)
+### 🔮 Single Customer Prediction
+- Predicts churn probability (0%–100%)
 - Assigns risk category: **Low · Medium · High**
-- Provides **actionable retention recommendations**
+- Provides actionable retention recommendations
 - Computes **Customer LTV (Lifetime Value)**
-- Suggests **maximum retention budget**
+- Suggests a maximum retention budget
 
 ---
 
-### 📊 **Portfolio Insights (Churn Dashboard)**
+### 📊 Portfolio Insights (Churn Dashboard)
 - Churn by **Geography**
 - Churn by **Age Group**
-- Rule-Based **Customer Segments**
+- Rule-Based **Customer Segments**:
   - Loyal  
   - At-Risk  
   - High-Value At-Risk  
   - New / Neutral
-- **Top Churn Drivers** (Feature Importance)
-- High-Value At-Risk Customer Table
+- Top churn drivers (feature importance)
+- High-Value At-Risk customer table
 
 ---
 
 ## 🏗 2. Project Structure
 
-
+```text
 churn_prediction_project/
 │── dashboard/
 │   └── app.py
@@ -65,25 +65,20 @@ churn_prediction_project/
 │── requirements.txt
 │── README.md
 │── LICENSE
-```
-
-
----
-
-## ⚙️ 3. Installation & Setup
-
-### **Create virtual environment**
-```bash
+⚙️ 3. Installation & Setup
+1️⃣ Create virtual environment
+bash
+Copy code
 python -m venv venv
-Activate environment
+2️⃣ Activate environment (Windows)
 bash
 Copy code
 venv\Scripts\activate
-Install dependencies
+3️⃣ Install dependencies
 bash
 Copy code
 pip install -r requirements.txt
-Run the Dashboard
+4️⃣ Run the dashboard
 bash
 Copy code
 cd dashboard
@@ -109,7 +104,7 @@ Precision / Recall
 
 F1-score
 
-ROC-AUC
+ROC–AUC
 
 💼 5. Business Value Delivered
 This project helps business teams:
@@ -127,7 +122,7 @@ Improve customer engagement strategies
 Accelerate data-driven decision-making
 
 📸 6. Dashboard Screenshots
-(Add your screenshots here)
+(Add your screenshots here once uploaded to the screenshots/ folder.)
 
 📜 7. License
 This project uses the MIT License.
