@@ -65,7 +65,9 @@ churn_prediction_project/
 │── requirements.txt
 │── README.md
 │── LICENSE
+
 ⚙️ 3. Installation & Setup
+
 1️⃣ Create virtual environment
 bash
 Copy code
@@ -83,7 +85,8 @@ bash
 Copy code
 cd dashboard
 streamlit run app.py
-🧠 4. Machine Learning Overview
+
+ 4. Machine Learning Overview
 Model: Random Forest Classifier
 
 Training approach includes:
@@ -106,7 +109,7 @@ F1-score
 
 ROC–AUC
 
-💼 5. Business Value Delivered
+ 5. Business Value Delivered
 This project helps business teams:
 
 Reduce churn via early identification
@@ -121,14 +124,14 @@ Improve customer engagement strategies
 
 Accelerate data-driven decision-making
 
-📸 6. Dashboard Screenshots
+ 6. Dashboard Screenshots
 (Add your screenshots here once uploaded to the screenshots/ folder.)
 
-📜 7. License
+ 7. License
 This project uses the MIT License.
 See the full license in the LICENSE file.
 
-👩‍💻 8. Author
+ 8. Author
 Hephzibah Paul
 AI & Business Analytics
 GitHub: https://github.com/HephzibahPaul
