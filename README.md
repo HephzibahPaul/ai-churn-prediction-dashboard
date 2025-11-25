@@ -39,32 +39,33 @@ Customer Retention · CRM · Product · Risk · Data Science teams.
 
 ## 🏗 2. Project Structure
 
+
 churn_prediction_project/
 │── dashboard/
-│ └── app.py
+│   └── app.py
 │── data/
-│ ├── raw_customers.csv
-│ └── generate_synthetic_data.py
+│   ├── raw_customers.csv
+│   └── generate_synthetic_data.py
 │── models/
-│ ├── churn_model.pkl
-│ ├── feature_cols.pkl
-│ └── feature_importances.pkl
+│   ├── churn_model.pkl
+│   ├── feature_cols.pkl
+│   └── feature_importances.pkl
 │── screenshots/
-│ ├── dashboard_home.png
-│ ├── prediction_result.png
-│ ├── churn_insights_geo.png
-│ ├── churn_insights_age.png
-│ ├── segments_chart.png
-│ ├── drivers_chart.png
-│ └── high_value_at_risk_table.png
+│   ├── dashboard_home.png
+│   ├── prediction_result.png
+│   ├── churn_insights_geo.png
+│   ├── churn_insights_age.png
+│   ├── segments_chart.png
+│   ├── drivers_chart.png
+│   └── high_value_at_risk_table.png
 │── src/
-│ ├── train_model.py
-│ ├── data_preprocessing.py
-│ └── init.py
+│   ├── train_model.py
+│   ├── data_preprocessing.py
+│   └── __init__.py
 │── requirements.txt
 │── README.md
 │── LICENSE
-
+```
 
 
 ---
